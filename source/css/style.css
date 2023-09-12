@@ -1,0 +1,22 @@
+:root {
+    --main-bg-color: #23272a;
+    --element: #7289da;
+    --nav-text: #ffffff;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    color: var(--nav-text);
+    background-color: var(--element)
+}
