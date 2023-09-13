@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 body {
@@ -18,5 +19,11 @@ ul {
     list-style-type: none;
     overflow: hidden;
     color: var(--nav-text);
-    background-color: var(--element)
+    background-color: var(--element);
+}
+
+li {
+    float: left;
+    font-size: 25px;
+    margin: 10px;
 }
