@@ -29,6 +29,11 @@ body {
   padding-right: 50%;
 }
 
+.link{
+  text-decoration: none;
+  color: white;
+}
+
 .top {
   width: 100%;
   color: var(--main-text-color);
@@ -178,7 +183,6 @@ svg {
   width: 35%;
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
-  text-align: justify;
   font-weight: bolder;
   padding: 5%;
 }
@@ -342,7 +346,7 @@ footer {
   float: left;
   margin-top: 50px;
   width: 100%;
-  height: 70px;
+  height: 150px;
   background-color: var(--third-bg-color);
 }
 
@@ -362,4 +366,9 @@ footer {
   text-align: left;
   font-family: Montserrat;
   color: var(--main-text-color);
+}
+
+.logo2 {
+  height: 75px;
+  width: 150px;
 }
